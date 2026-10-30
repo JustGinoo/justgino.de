@@ -9,4 +9,11 @@ export const socials = [
   },
   { id: "discord", label: "Discord", handle: "@just_gino", url: "https://discord.gg/wildmine", icon: "discord" },
   { id: "twitch", label: "Twitch", handle: "justginoo", url: "https://twitch.tv/justginoo", icon: "twitch" },
+  {
+    id: "builtbybit",
+    label: "BuiltByBit",
+    handle: "JustGino",
+    url: "https://builtbybit.com/justgino",
+    icon: "builtbybit",
+  },
 ];

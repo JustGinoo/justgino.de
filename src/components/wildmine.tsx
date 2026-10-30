@@ -28,7 +28,7 @@ export async function WildMine({ locale }: { locale: Locale }) {
           <dl className="mt-8 grid grid-cols-3 gap-3">
             {[
               { value: wildmine.modes.length, label: t("modes") },
-              { value: wildmine.plugins.length, label: t("plugins") },
+              { value: wildmine.plugins, label: t("plugins") },
               { value: days, label: t("days") },
             ].map((stat) => (
               <div key={stat.label} className="window p-4">
@@ -72,13 +72,8 @@ export async function WildMine({ locale }: { locale: Locale }) {
           <div className="bg-black/50 p-3 text-xs leading-relaxed sm:text-[13px]">
             <p className="text-[#a8a8a8]">&gt; /plugins</p>
             <p className="mt-1">
-              <span className="text-white">{t("pluginsCommand", { count: wildmine.plugins.length })} </span>
-              {wildmine.plugins.map((plugin, i) => (
-                <span key={plugin}>
-                  <span className="text-[#55ff55]">{plugin}</span>
-                  {i < wildmine.plugins.length - 1 && <span className="text-white">, </span>}
-                </span>
-              ))}
+              <span className="text-white">{t("pluginsCommand", { count: wildmine.plugins })} </span>
+              <span className="text-[#55ff55]">{t("pluginsOwn")}</span>
             </p>
             <p className="mt-3 text-[#a8a8a8]">&gt; /server</p>
             <ul className="mt-1 flex flex-wrap gap-x-4 gap-y-1">

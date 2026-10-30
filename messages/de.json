@@ -32,7 +32,7 @@
       "whoami": "Gino Wild – Entwickler & Pixel-Artist",
       "stack": "java  kotlin  typescript  discord.js",
       "server": "online · 3 Spielmodi live · 9 eigene Plugins",
-      "coffee": "Kaffee bereit, Editor offen. Lass uns was bauen."
+      "coffee": "PC an, Minecraft offen. Lass uns was bauen."
     }
   },
   "services": {
@@ -78,11 +78,13 @@
     "live": "live",
     "building": "im Aufbau",
     "website": "Website",
-    "discord": "Discord"
+    "discord": "Discord",
+    "pluginsOwn": "alle selbst entwickelt"
   },
   "log": {
     "eyebrow": "werdegang",
-    "title": "git log --oneline"
+    "title": "git log --oneline",
+    "file": "werdegang.log"
   },
   "contact": {
     "eyebrow": "kontakt",
@@ -150,14 +152,18 @@
   },
   "footer": {
     "branch": "main",
-    "problems": "0 Fehler",
     "imprint": "Impressum",
-    "privacy": "Datenschutz",
-    "made": "gebaut mit Next.js & Pixeln"
+    "privacy": "Datenschutz"
   },
   "notFound": {
     "title": "404 – Datei nicht gefunden",
     "text": "Unter dieser Adresse liegt nichts. Vielleicht ein Tippfehler?",
     "back": "cd ~"
+  },
+  "shop": {
+    "file": "builtbybit.com/justgino",
+    "title": "Fertige Plugins im Shop",
+    "text": "Einige meiner Plugins und Ressourcen gibt es fertig zu kaufen – direkt einsetzbar auf deinem Server.",
+    "cta": "Zu meinem BuiltByBit-Profil"
   }
 }

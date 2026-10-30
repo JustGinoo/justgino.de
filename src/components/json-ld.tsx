@@ -3,7 +3,7 @@ import { socials } from "@/data/socials";
 import type { Locale } from "@/i18n/routing";
 import { site } from "@/lib/site";
 
-export function JsonLd({ locale }: { locale: Locale }) {
+export function JsonLd({ locale, description }: { locale: Locale; description: string }) {
   const data = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -12,7 +12,7 @@ export function JsonLd({ locale }: { locale: Locale }) {
     url: site.url,
     email: `mailto:${profile.email}`,
     jobTitle: profile.role[locale],
-    description: profile.tagline[locale],
+    description,
     sameAs: socials.map((s) => s.url),
     knowsLanguage: ["de", "en"],
   };

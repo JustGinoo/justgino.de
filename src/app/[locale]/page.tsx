@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { About } from "@/components/about";
 import { Contact } from "@/components/contact";
 import { Hero } from "@/components/hero";
 import { JsonLd } from "@/components/json-ld";
 import { Services } from "@/components/services";
+import { Shop } from "@/components/shop";
 import { Skills } from "@/components/skills";
 import { Timeline } from "@/components/timeline";
 import { WildMine } from "@/components/wildmine";
@@ -23,17 +24,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations("meta");
 
   return (
     <>
-      <JsonLd locale={locale} />
+      <JsonLd locale={locale} description={t("description")} />
       <Hero locale={locale} />
       <Services locale={locale} />
+      <Shop />
       <About locale={locale} />
       <Skills locale={locale} />
       <WildMine locale={locale} />
-      <Timeline locale={locale} />
       <Contact />
+      <Timeline locale={locale} />
     </>
   );
 }

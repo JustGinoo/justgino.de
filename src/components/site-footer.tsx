@@ -1,4 +1,4 @@
-import { Check, GitBranch } from "lucide-react";
+import { GitBranch } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
@@ -14,10 +14,6 @@ export async function SiteFooter() {
             <GitBranch className="size-3.5" aria-hidden="true" />
             {t("branch")}
           </span>
-          <span className="inline-flex items-center gap-1.5">
-            <Check className="size-3.5" aria-hidden="true" />
-            {t("problems")}
-          </span>
           <span>© {year} Gino Wild</span>
         </div>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
@@ -27,7 +23,6 @@ export async function SiteFooter() {
           <Link href="/datenschutz" className="hover:text-accent">
             {t("privacy")}
           </Link>
-          <span className="text-faint">{t("made")}</span>
         </div>
       </div>
     </footer>

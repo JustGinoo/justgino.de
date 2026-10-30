@@ -19,17 +19,7 @@ export const wildmine = {
     { name: "WildAttack", live: true },
     { name: "WildCity", live: false },
   ],
-  plugins: [
-    "ClaimSystem",
-    "EconomySystem",
-    "LobbySystem",
-    "RewardsSystem",
-    "SkillSystem",
-    "SMP-Essentials",
-    "StaffSystem",
-    "StorageSystem",
-    "VotingSystem",
-  ],
+  plugins: 9,
 };
 
 export function daysOnline(now = Date.now()) {

@@ -48,12 +48,11 @@ export async function Hero({ locale }: { locale: Locale }) {
           {profile.name}
           <span className="text-accent">.</span>
         </h1>
-        <p className="mt-5 font-mono text-sm sm:text-base">
+        <p className="mt-5 font-mono text-[clamp(0.55rem,2.3vw,0.875rem)] whitespace-nowrap">
           <span className="text-key">const</span> <span className="text-fn">role</span>{" "}
           <span className="text-faint">=</span> <span className="text-str">&quot;{profile.role[locale]}&quot;</span>
           <span className="text-faint">;</span>
         </p>
-        <p className="mt-6 max-w-xl text-lg text-pretty text-muted">{profile.tagline[locale]}</p>
 
         <div className="mt-9 flex flex-wrap gap-4">
           <a href={`#${sections.contact}`} className="btn btn-primary">

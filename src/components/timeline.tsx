@@ -2,30 +2,35 @@ import { getTranslations } from "next-intl/server";
 import { timeline } from "@/data/timeline";
 import type { Locale } from "@/i18n/routing";
 import { sections } from "@/lib/site";
-import { Section } from "./section";
+import { Window } from "./window";
 
 export async function Timeline({ locale }: { locale: Locale }) {
   const t = await getTranslations("log");
 
   return (
-    <Section id={sections.log} index={5} eyebrow={t("eyebrow")} title={t("title")}>
-      <ol className="relative max-w-3xl border-l-2 border-line-strong">
-        {timeline.map((commit) => (
-          <li key={commit.hash} className="relative pb-10 pl-8 last:pb-0">
-            <span
-              className={`absolute top-1.5 -left-[7px] size-3 ${commit.head ? "bg-accent" : "bg-line-strong"}`}
-              aria-hidden="true"
-            />
-            <p className="font-mono text-sm">
+    <section
+      id={sections.log}
+      aria-labelledby={`${sections.log}-title`}
+      className="mx-auto w-full max-w-6xl px-5 pb-14 sm:px-8 sm:pb-20"
+    >
+      <h2 id={`${sections.log}-title`} className="mb-4 font-mono text-sm">
+        <span className="text-faint">{t("eyebrow")} </span>
+        <span className="text-accent">$ {t("title")}</span>
+      </h2>
+      <Window file={t("file")}>
+        <ol className="divide-y divide-line font-mono text-[13px]">
+          {timeline.map((commit) => (
+            <li key={commit.hash} className="flex flex-wrap items-baseline gap-x-4 gap-y-1 px-5 py-3">
               <span className="text-str">{commit.hash}</span>
-              {commit.head && <span className="text-key"> (HEAD -&gt; main)</span>}
-              <span className="text-faint"> · {commit.date[locale]}</span>
-            </p>
-            <h3 className="mt-1.5 text-lg font-semibold">{commit.title[locale]}</h3>
-            <p className="mt-1 text-muted">{commit.text[locale]}</p>
-          </li>
-        ))}
-      </ol>
-    </Section>
+              <span className="w-20 shrink-0 text-faint">{commit.date[locale]}</span>
+              <span className="min-w-0 flex-1 font-sans text-sm text-fg">
+                {commit.title[locale]}
+                {commit.head && <span className="ml-2 font-mono text-xs text-key">(HEAD)</span>}
+              </span>
+            </li>
+          ))}
+        </ol>
+      </Window>
+    </section>
   );
 }

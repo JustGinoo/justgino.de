@@ -28,7 +28,7 @@ export async function Contact() {
   });
 
   return (
-    <Section id={sections.contact} index={6} eyebrow={t("eyebrow")} title={t("title")} intro={t("intro")}>
+    <Section id={sections.contact} index={5} eyebrow={t("eyebrow")} title={t("title")} intro={t("intro")}>
       <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-start">
         <Window file={t("form.file")}>
           <ContactForm text={flatten(messages.contact.form)} consent={consent} />

@@ -11,10 +11,6 @@ export const profile = {
     de: "Plugin- & Bot-Entwickler · Pixel-Art-Artist",
     en: "Plugin & Bot Developer · Pixel Artist",
   } satisfies Localized,
-  tagline: {
-    de: "Ich entwickle Minecraft-Plugins und Discord-Bots – und pixele die Interfaces gleich selbst dazu.",
-    en: "I build Minecraft plugins and Discord bots – and pixel the interfaces myself.",
-  } satisfies Localized,
   bio: {
     de: [
       "Ich habe zuerst das Fachabitur gemacht und danach eine Ausbildung zum Elektroniker für Energie- und Gebäudetechnik abgeschlossen.",

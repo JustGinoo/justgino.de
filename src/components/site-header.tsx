@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { sections } from "@/lib/site";
 import { LanguageSwitch } from "./language-switch";
 
-const tabs = ["services", "about", "skills", "wildmine", "log", "contact"] as const;
+const tabs = ["services", "about", "skills", "wildmine", "contact", "log"] as const;
 
 export async function SiteHeader() {
   const t = await getTranslations();
