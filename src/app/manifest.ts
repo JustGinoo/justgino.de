@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "JustGino – Gino Wild",
+    name: "JustGino · Gino Wild",
     short_name: "JustGino",
     start_url: "/",
     display: "standalone",

@@ -18,8 +18,8 @@ Diese Website ist eine persönliche Landingpage. Sie setzt **keine Cookies**, sp
 Inhalte von fremden Servern** nach: Schriften und Icons liegen vollständig auf dem
 eigenen Server. Ein Cookie-Banner ist deshalb nicht erforderlich.
 
-Personenbezogene Daten werden nur verarbeitet, wenn Sie uns aktiv kontaktieren — oder
-technisch zwingend beim Aufruf der Seite (Server-Logfiles).
+Personenbezogene Daten werden nur verarbeitet, wenn Sie uns aktiv kontaktieren oder
+wenn es beim Aufruf der Seite technisch zwingend ist (Server-Logfiles).
 
 ## 3. Hosting und Server-Logfiles
 
@@ -32,15 +32,15 @@ IP-Adresse, Datum und Uhrzeit, aufgerufene Seite, Referrer-URL, Browser und
 Betriebssystem, übertragene Datenmenge und HTTP-Statuscode.
 
 **IP-Kürzung:** Im Zugriffsprotokoll wird die IP-Adresse bereits beim Schreiben
-gekürzt — bei IPv4 entfällt das letzte Feld (z. B. `203.0.113.0`), bei IPv6 die hintere
+gekürzt: Bei IPv4 entfällt das letzte Feld (z. B. `203.0.113.0`), bei IPv6 die hintere
 Hälfte. Eine vollständige Adresse wird dort nicht gespeichert. In technischen
 Fehlerprotokollen kann sie kurzzeitig vollständig erscheinen.
 
 **Automatische Löschung:** Die Protokolldateien werden täglich gewechselt und nach
-**14 Tagen automatisch gelöscht** — Zugriffs- wie Fehlerprotokoll. Das übernimmt eine
+**14 Tagen automatisch gelöscht**, das gilt für Zugriffs- wie Fehlerprotokoll. Das übernimmt eine
 feste Regel auf dem Server, ohne manuellen Eingriff.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO — berechtigtes Interesse an einer
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO, also das berechtigte Interesse an einer
 sicheren und zuverlässigen Bereitstellung. Eine Zusammenführung mit anderen
 Datenquellen findet nicht statt.
 

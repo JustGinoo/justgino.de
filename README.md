@@ -1,6 +1,6 @@
 # justgino.de
 
-Persönliche Landingpage von Gino Wild (JustGino) – Minecraft-Plugins, Discord-Bots und Pixel Art.
+Persönliche Landingpage von Gino Wild (JustGino): Minecraft-Plugins, Discord-Bots und Pixel Art.
 
 **Live:** [justgino.de](https://justgino.de)
 

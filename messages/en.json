@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Gino Wild – Plugin & Bot Developer · Pixel Artist",
+    "title": "Gino Wild · Plugin & Bot Developer · Pixel Artist",
     "description": "Gino Wild (JustGino) builds Minecraft plugins and Discord bots, pixels his own interfaces and runs the Minecraft network WildMine."
   },
   "a11y": {
@@ -28,8 +28,8 @@
     "about": "More about me",
     "socials": "Profiles",
     "terminal": {
-      "title": "zsh – gino@justgino",
-      "whoami": "Gino Wild – developer & pixel artist",
+      "title": "zsh · gino@justgino",
+      "whoami": "Gino Wild, developer & pixel artist",
       "stack": "java  kotlin  typescript  discord.js",
       "server": "online · 3 game modes live · 9 custom plugins",
       "coffee": "PC on, Minecraft open. Let's build something."
@@ -38,7 +38,7 @@
   "services": {
     "eyebrow": "services",
     "title": "What I build for you",
-    "intro": "Four things I'm good at – and happy to build for your server or community."
+    "intro": "Four things I'm good at and happy to build for your server or community."
   },
   "about": {
     "eyebrow": "about",
@@ -55,17 +55,9 @@
   },
   "skills": {
     "eyebrow": "skills",
-    "title": "My inventory",
-    "intro": "Languages, frameworks and tools I have worked with. Hover an item for details.",
-    "inventory": "Inventory",
-    "hotbar": "Hotbar – used every day",
-    "kinds": {
-      "code": "Language & build",
-      "web": "Web",
-      "infra": "Infrastructure",
-      "design": "Design",
-      "tool": "Tool"
-    }
+    "title": "What I work with",
+    "intro": "Languages, frameworks and tools I use day to day.",
+    "file": "stack.yml"
   },
   "wildmine": {
     "eyebrow": "wildmine",
@@ -89,7 +81,7 @@
   "contact": {
     "eyebrow": "contact",
     "title": "Let's talk",
-    "intro": "Tell me briefly about your project. I'll get back to you by email – usually within a day or two.",
+    "intro": "Tell me briefly about your project. I'll get back to you by email, usually within a day or two.",
     "direct": "Reach me directly",
     "email": "Email",
     "discord": "Discord",
@@ -114,7 +106,7 @@
       "consent": "I agree that my details are sent by email to handle this inquiry. Details in the <link>privacy policy</link>.",
       "submit": "Send inquiry",
       "sending": "Sending …",
-      "successTitle": "200 OK – inquiry sent.",
+      "successTitle": "200 OK: inquiry sent.",
       "successText": "Thanks! I'll get back to you by email as soon as I can.",
       "again": "Send another inquiry",
       "errors": {
@@ -156,14 +148,14 @@
     "privacy": "Privacy"
   },
   "notFound": {
-    "title": "404 – file not found",
+    "title": "404: file not found",
     "text": "There's nothing at this address. Maybe a typo?",
     "back": "cd ~"
   },
   "shop": {
     "file": "builtbybit.com/justgino",
     "title": "Ready-made plugins in my shop",
-    "text": "Some of my plugins and resources are available to buy – ready to drop onto your server.",
+    "text": "Some of my plugins and resources are available to buy, ready to drop onto your server.",
     "cta": "Visit my BuiltByBit profile"
   }
 }

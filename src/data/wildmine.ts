@@ -6,8 +6,8 @@ export const wildmine = {
   discord: "https://discord.gg/wildmine",
   launchedAt: "2025-06-18T18:00:00.000Z",
   motd: {
-    de: "Mehrere Spielmodi hinter einem Velocity-Proxy – komplett mit eigenen Plugins.",
-    en: "Several game modes behind a Velocity proxy – all running on my own plugins.",
+    de: "Mehrere Spielmodi hinter einem Velocity-Proxy, komplett mit eigenen Plugins.",
+    en: "Several game modes behind a Velocity proxy, all running on my own plugins.",
   } satisfies Localized,
   text: {
     de: "Seit dem Start im Juni 2025 bin ich Entwickler und Serverleitung in einer Person: Plugins, Website, Discord-Bot und alles, was dazwischen liegt.",

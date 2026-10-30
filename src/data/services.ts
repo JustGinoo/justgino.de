@@ -14,8 +14,8 @@ export const services: Service[] = [
     file: "Plugin.java",
     title: { de: "Minecraft-Plugins", en: "Minecraft plugins" },
     text: {
-      de: "Plugins in Java für Paper, Folia und Velocity – vom Konzept über die Datenbank bis zum laufenden Server.",
-      en: "Java plugins for Paper, Folia and Velocity – from concept and database design to the running server.",
+      de: "Plugins in Java für Paper, Folia und Velocity. Vom Konzept über die Datenbank bis zum laufenden Server.",
+      en: "Java plugins for Paper, Folia and Velocity. From concept and database design to the running server.",
     },
     tags: ["Java", "Paper", "Folia", "Velocity"],
   },
@@ -34,8 +34,8 @@ export const services: Service[] = [
     file: "menu.ase",
     title: { de: "Pixel-Art-GUIs", en: "Pixel art GUIs" },
     text: {
-      de: "Von Hand gepixelte Menüs, Icons und Interfaces als Resource Pack – passend zum Stil eures Servers.",
-      en: "Hand-pixelled menus, icons and interfaces as a resource pack – matched to your server's style.",
+      de: "Von Hand gepixelte Menüs, Icons und Interfaces als Resource Pack, passend zum Stil eures Servers.",
+      en: "Hand-pixelled menus, icons and interfaces as a resource pack, matched to your server's style.",
     },
     tags: ["Aseprite", "Resource Pack"],
   },

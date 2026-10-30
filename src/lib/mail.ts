@@ -72,7 +72,7 @@ export async function sendInquiry(input: ContactInput, locale: Locale) {
     from: { name: `${site.name} Website`, address: user },
     to,
     replyTo: { name: input.name, address: input.email },
-    subject: `[${site.domain}] ${type} – ${input.name}`,
+    subject: `[${site.domain}] ${type} von ${input.name}`,
     text,
     html,
   });

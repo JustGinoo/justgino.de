@@ -1,45 +1,81 @@
 import type { Localized } from "@/lib/i18n-text";
 
-export type SkillKind = "code" | "web" | "infra" | "design" | "tool";
-
 export type Skill = {
   name: string | Localized;
   icon: string;
-  kind: SkillKind;
   themed?: boolean;
 };
 
-export const inventory: Skill[] = [
-  { name: "Java", icon: "java", kind: "code" },
-  { name: "Kotlin", icon: "kotlin", kind: "code", themed: true },
-  { name: "Python", icon: "py", kind: "code" },
-  { name: "PHP", icon: "php", kind: "code" },
-  { name: "MySQL", icon: "mysql", kind: "code", themed: true },
-  { name: "SQLite", icon: "sqlite", kind: "code" },
-  { name: "Maven", icon: "maven", kind: "code", themed: true },
-  { name: "Discord.js", icon: "discordjs", kind: "code", themed: true },
-  { name: "JavaScript", icon: "js", kind: "web" },
-  { name: "TypeScript", icon: "ts", kind: "web" },
-  { name: "HTML", icon: "html", kind: "web" },
-  { name: "CSS", icon: "css", kind: "web" },
-  { name: "Tailwind CSS", icon: "tailwind", kind: "web", themed: true },
-  { name: "Docker", icon: "docker", kind: "infra" },
-  { name: "nginx", icon: "nginx", kind: "infra" },
-  { name: "Debian", icon: "debian", kind: "infra", themed: true },
-  { name: "Google Cloud", icon: "gcp", kind: "infra", themed: true },
-  { name: { de: "Pixel Art", en: "Pixel art" }, icon: "pixelart", kind: "design", themed: true },
-  { name: "Figma", icon: "figma", kind: "design" },
-  { name: "Notion", icon: "notion", kind: "tool", themed: true },
-];
+export type SkillGroup = {
+  id: string;
+  label: Localized;
+  items: Skill[];
+};
 
-export const hotbar: Skill[] = [
-  { name: "IntelliJ IDEA", icon: "idea", kind: "tool", themed: true },
-  { name: "GitHub", icon: "github", kind: "tool", themed: true },
-  { name: "Discord", icon: "discord", kind: "tool" },
-  { name: "Aseprite", icon: "aseprite", kind: "design" },
-  { name: "Cloudflare", icon: "cloudflare", kind: "infra" },
-  { name: "Gmail", icon: "gmail", kind: "tool", themed: true },
-  { name: "Modrinth", icon: "modrinth", kind: "tool" },
-  { name: "BuiltByBit", icon: "builtbybit", kind: "tool" },
-  { name: "Spotify", icon: "spotify", kind: "tool" },
+export const skillGroups: SkillGroup[] = [
+  {
+    id: "languages",
+    label: { de: "sprachen", en: "languages" },
+    items: [
+      { name: "Java", icon: "java" },
+      { name: "Kotlin", icon: "kotlin", themed: true },
+      { name: "TypeScript", icon: "ts" },
+      { name: "JavaScript", icon: "js" },
+      { name: "Python", icon: "py" },
+      { name: "PHP", icon: "php" },
+    ],
+  },
+  {
+    id: "web",
+    label: { de: "web & bots", en: "web & bots" },
+    items: [
+      { name: "HTML", icon: "html" },
+      { name: "CSS", icon: "css" },
+      { name: "Tailwind CSS", icon: "tailwind", themed: true },
+      { name: "Discord.js", icon: "discordjs", themed: true },
+    ],
+  },
+  {
+    id: "data",
+    label: { de: "daten & build", en: "data & build" },
+    items: [
+      { name: "MySQL", icon: "mysql", themed: true },
+      { name: "SQLite", icon: "sqlite" },
+      { name: "Maven", icon: "maven", themed: true },
+    ],
+  },
+  {
+    id: "infra",
+    label: { de: "server & cloud", en: "servers & cloud" },
+    items: [
+      { name: "Docker", icon: "docker" },
+      { name: "nginx", icon: "nginx" },
+      { name: "Debian", icon: "debian", themed: true },
+      { name: "Google Cloud", icon: "gcp", themed: true },
+      { name: "Cloudflare", icon: "cloudflare" },
+    ],
+  },
+  {
+    id: "design",
+    label: { de: "design", en: "design" },
+    items: [
+      { name: { de: "Pixel Art", en: "Pixel art" }, icon: "pixelart", themed: true },
+      { name: "Aseprite", icon: "aseprite" },
+      { name: "Figma", icon: "figma" },
+    ],
+  },
+  {
+    id: "tools",
+    label: { de: "tools & plattformen", en: "tools & platforms" },
+    items: [
+      { name: "IntelliJ IDEA", icon: "idea", themed: true },
+      { name: "GitHub", icon: "github", themed: true },
+      { name: "Notion", icon: "notion", themed: true },
+      { name: "Discord", icon: "discord" },
+      { name: "Gmail", icon: "gmail", themed: true },
+      { name: "Modrinth", icon: "modrinth" },
+      { name: "BuiltByBit", icon: "builtbybit" },
+      { name: "Spotify", icon: "spotify" },
+    ],
+  },
 ];

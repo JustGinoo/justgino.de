@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Gino Wild – Plugin- & Bot-Entwickler · Pixel-Art-Artist",
+    "title": "Gino Wild · Plugin- & Bot-Entwickler · Pixel-Art-Artist",
     "description": "Gino Wild (JustGino) entwickelt Minecraft-Plugins und Discord-Bots, pixelt eigene Interfaces und leitet das Minecraft-Netzwerk WildMine."
   },
   "a11y": {
@@ -28,8 +28,8 @@
     "about": "Mehr über mich",
     "socials": "Profile",
     "terminal": {
-      "title": "zsh – gino@justgino",
-      "whoami": "Gino Wild – Entwickler & Pixel-Artist",
+      "title": "zsh · gino@justgino",
+      "whoami": "Gino Wild, Entwickler & Pixel-Artist",
       "stack": "java  kotlin  typescript  discord.js",
       "server": "online · 3 Spielmodi live · 9 eigene Plugins",
       "coffee": "PC an, Minecraft offen. Lass uns was bauen."
@@ -38,7 +38,7 @@
   "services": {
     "eyebrow": "leistungen",
     "title": "Was ich für dich baue",
-    "intro": "Vier Dinge, die ich gut kann – und gerne für deinen Server oder deine Community umsetze."
+    "intro": "Vier Dinge, die ich gut kann und gerne für deinen Server oder deine Community umsetze."
   },
   "about": {
     "eyebrow": "ueber-mich",
@@ -55,17 +55,9 @@
   },
   "skills": {
     "eyebrow": "skills",
-    "title": "Mein Inventar",
-    "intro": "Sprachen, Frameworks und Tools, mit denen ich gearbeitet habe. Fahr über ein Item für Details.",
-    "inventory": "Inventar",
-    "hotbar": "Hotbar – täglich im Einsatz",
-    "kinds": {
-      "code": "Sprache & Build",
-      "web": "Web",
-      "infra": "Infrastruktur",
-      "design": "Design",
-      "tool": "Werkzeug"
-    }
+    "title": "Womit ich arbeite",
+    "intro": "Sprachen, Frameworks und Werkzeuge aus meinem Alltag.",
+    "file": "stack.yml"
   },
   "wildmine": {
     "eyebrow": "wildmine",
@@ -89,7 +81,7 @@
   "contact": {
     "eyebrow": "kontakt",
     "title": "Lass uns reden",
-    "intro": "Erzähl mir kurz von deinem Vorhaben. Ich melde mich per E-Mail – meistens innerhalb von ein, zwei Tagen.",
+    "intro": "Erzähl mir kurz von deinem Vorhaben. Ich melde mich per E-Mail, meistens innerhalb von ein, zwei Tagen.",
     "direct": "Direkt erreichbar",
     "email": "E-Mail",
     "discord": "Discord",
@@ -114,7 +106,7 @@
       "consent": "Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage per E-Mail übermittelt werden. Details in der <link>Datenschutzerklärung</link>.",
       "submit": "Anfrage senden",
       "sending": "Wird gesendet …",
-      "successTitle": "200 OK – Anfrage ist raus.",
+      "successTitle": "200 OK: Anfrage ist raus.",
       "successText": "Danke! Ich melde mich so bald wie möglich per E-Mail.",
       "again": "Noch eine Anfrage senden",
       "errors": {
@@ -156,14 +148,14 @@
     "privacy": "Datenschutz"
   },
   "notFound": {
-    "title": "404 – Datei nicht gefunden",
+    "title": "404: Datei nicht gefunden",
     "text": "Unter dieser Adresse liegt nichts. Vielleicht ein Tippfehler?",
     "back": "cd ~"
   },
   "shop": {
     "file": "builtbybit.com/justgino",
     "title": "Fertige Plugins im Shop",
-    "text": "Einige meiner Plugins und Ressourcen gibt es fertig zu kaufen – direkt einsetzbar auf deinem Server.",
+    "text": "Einige meiner Plugins und Ressourcen gibt es fertig zu kaufen, direkt einsetzbar auf deinem Server.",
     "cta": "Zu meinem BuiltByBit-Profil"
   }
 }
