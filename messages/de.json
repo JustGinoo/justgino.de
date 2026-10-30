@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Gino Wild – Plugin- & Bot-Entwickler · Pixel-Art-Artist",
+    "description": "Gino Wild (JustGino) entwickelt Minecraft-Plugins und Discord-Bots, pixelt eigene Interfaces und leitet das Minecraft-Netzwerk WildMine."
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen",
+    "newTab": "öffnet in neuem Tab"
+  },
+  "nav": {
+    "label": "Hauptnavigation",
+    "services": "leistungen.ts",
+    "about": "ueber-mich.md",
+    "skills": "skills.json",
+    "wildmine": "wildmine.yml",
+    "log": "werdegang.log",
+    "contact": "kontakt.sh"
+  },
+  "locale": {
+    "label": "Sprache",
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "hero": {
+    "status": "offen für Anfragen",
+    "hello": "Hallo, ich bin",
+    "contact": "Anfrage senden",
+    "about": "Mehr über mich",
+    "socials": "Profile",
+    "terminal": {
+      "title": "zsh – gino@justgino",
+      "whoami": "Gino Wild – Entwickler & Pixel-Artist",
+      "stack": "java  kotlin  typescript  discord.js",
+      "server": "online · 3 Spielmodi live · 9 eigene Plugins",
+      "coffee": "Kaffee bereit, Editor offen. Lass uns was bauen."
+    }
+  },
+  "services": {
+    "eyebrow": "leistungen",
+    "title": "Was ich für dich baue",
+    "intro": "Vier Dinge, die ich gut kann – und gerne für deinen Server oder deine Community umsetze."
+  },
+  "about": {
+    "eyebrow": "ueber-mich",
+    "title": "Wer hier tippt",
+    "readme": "README.md",
+    "facts": "profil.json",
+    "keys": {
+      "name": "name",
+      "training": "ausbildung",
+      "degree": "abschluss",
+      "now": "aktuell",
+      "languages": "sprachen"
+    }
+  },
+  "skills": {
+    "eyebrow": "skills",
+    "title": "Mein Inventar",
+    "intro": "Sprachen, Frameworks und Tools, mit denen ich gearbeitet habe. Fahr über ein Item für Details.",
+    "inventory": "Inventar",
+    "hotbar": "Hotbar – täglich im Einsatz",
+    "kinds": {
+      "code": "Sprache & Build",
+      "web": "Web",
+      "infra": "Infrastruktur",
+      "design": "Design",
+      "tool": "Werkzeug"
+    }
+  },
+  "wildmine": {
+    "eyebrow": "wildmine",
+    "title": "Mein eigenes Minecraft-Netzwerk",
+    "online": "Online",
+    "days": "Tage online",
+    "modes": "Spielmodi",
+    "plugins": "Eigene Plugins",
+    "pluginsCommand": "Plugins ({count}):",
+    "live": "live",
+    "building": "im Aufbau",
+    "website": "Website",
+    "discord": "Discord"
+  },
+  "log": {
+    "eyebrow": "werdegang",
+    "title": "git log --oneline"
+  },
+  "contact": {
+    "eyebrow": "kontakt",
+    "title": "Lass uns reden",
+    "intro": "Erzähl mir kurz von deinem Vorhaben. Ich melde mich per E-Mail – meistens innerhalb von ein, zwei Tagen.",
+    "direct": "Direkt erreichbar",
+    "email": "E-Mail",
+    "discord": "Discord",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "form": {
+      "file": "kontakt.sh",
+      "name": "Name",
+      "namePlaceholder": "Dein Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "du@example.de",
+      "type": "Worum geht's?",
+      "types": {
+        "plugin": "Minecraft-Plugin",
+        "bot": "Discord-Bot",
+        "pixel-art": "Pixel Art / GUIs",
+        "hosting": "Website-Hosting",
+        "other": "Sonstiges"
+      },
+      "message": "Nachricht",
+      "messagePlaceholder": "Was soll gebaut werden, was ist das Ziel, gibt es einen Zeitrahmen?",
+      "consent": "Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage per E-Mail übermittelt werden. Details in der <link>Datenschutzerklärung</link>.",
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet …",
+      "successTitle": "200 OK – Anfrage ist raus.",
+      "successText": "Danke! Ich melde mich so bald wie möglich per E-Mail.",
+      "again": "Noch eine Anfrage senden",
+      "errors": {
+        "name": {
+          "min": "Bitte gib deinen Namen an (mindestens 2 Zeichen).",
+          "max": "Der Name ist zu lang."
+        },
+        "email": {
+          "invalid": "Bitte gib eine gültige E-Mail-Adresse an."
+        },
+        "type": {
+          "invalid": "Bitte wähle aus, worum es geht."
+        },
+        "message": {
+          "min": "Beschreib dein Anliegen bitte etwas genauer (mindestens 20 Zeichen).",
+          "max": "Die Nachricht ist zu lang (höchstens 5000 Zeichen)."
+        },
+        "consent": {
+          "required": "Bitte stimme der Verarbeitung zu."
+        },
+        "invalid": "Ungültige Eingabe.",
+        "generic": "Das hat leider nicht geklappt. Versuch es später noch einmal oder schreib mir direkt per E-Mail.",
+        "rateLimit": "Zu viele Anfragen in kurzer Zeit. Bitte versuch es in einer Stunde noch einmal."
+      }
+    }
+  },
+  "legal": {
+    "imprint": "Impressum",
+    "privacy": "Datenschutzerklärung",
+    "imprintDescription": "Anbieterkennzeichnung für justgino.de.",
+    "privacyDescription": "Welche Daten diese Website verarbeitet, wofür und auf welcher Grundlage.",
+    "updated": "Stand",
+    "germanOnly": "Dieser Text liegt nur auf Deutsch vor; die deutsche Fassung ist maßgeblich.",
+    "back": "cd ~"
+  },
+  "footer": {
+    "branch": "main",
+    "problems": "0 Fehler",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "made": "gebaut mit Next.js & Pixeln"
+  },
+  "notFound": {
+    "title": "404 – Datei nicht gefunden",
+    "text": "Unter dieser Adresse liegt nichts. Vielleicht ein Tippfehler?",
+    "back": "cd ~"
+  }
+}

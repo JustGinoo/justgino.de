@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Gino Wild – Plugin & Bot Developer · Pixel Artist",
+    "description": "Gino Wild (JustGino) builds Minecraft plugins and Discord bots, pixels his own interfaces and runs the Minecraft network WildMine."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "newTab": "opens in a new tab"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "services": "services.ts",
+    "about": "about.md",
+    "skills": "skills.json",
+    "wildmine": "wildmine.yml",
+    "log": "history.log",
+    "contact": "contact.sh"
+  },
+  "locale": {
+    "label": "Language",
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "hero": {
+    "status": "open for inquiries",
+    "hello": "Hi, I'm",
+    "contact": "Send an inquiry",
+    "about": "More about me",
+    "socials": "Profiles",
+    "terminal": {
+      "title": "zsh – gino@justgino",
+      "whoami": "Gino Wild – developer & pixel artist",
+      "stack": "java  kotlin  typescript  discord.js",
+      "server": "online · 3 game modes live · 9 custom plugins",
+      "coffee": "Coffee ready, editor open. Let's build something."
+    }
+  },
+  "services": {
+    "eyebrow": "services",
+    "title": "What I build for you",
+    "intro": "Four things I'm good at – and happy to build for your server or community."
+  },
+  "about": {
+    "eyebrow": "about",
+    "title": "Who's typing here",
+    "readme": "README.md",
+    "facts": "profile.json",
+    "keys": {
+      "name": "name",
+      "training": "apprenticeship",
+      "degree": "qualification",
+      "now": "currently",
+      "languages": "languages"
+    }
+  },
+  "skills": {
+    "eyebrow": "skills",
+    "title": "My inventory",
+    "intro": "Languages, frameworks and tools I have worked with. Hover an item for details.",
+    "inventory": "Inventory",
+    "hotbar": "Hotbar – used every day",
+    "kinds": {
+      "code": "Language & build",
+      "web": "Web",
+      "infra": "Infrastructure",
+      "design": "Design",
+      "tool": "Tool"
+    }
+  },
+  "wildmine": {
+    "eyebrow": "wildmine",
+    "title": "My own Minecraft network",
+    "online": "Online",
+    "days": "days online",
+    "modes": "Game modes",
+    "plugins": "Custom plugins",
+    "pluginsCommand": "Plugins ({count}):",
+    "live": "live",
+    "building": "in progress",
+    "website": "Website",
+    "discord": "Discord"
+  },
+  "log": {
+    "eyebrow": "history",
+    "title": "git log --oneline"
+  },
+  "contact": {
+    "eyebrow": "contact",
+    "title": "Let's talk",
+    "intro": "Tell me briefly about your project. I'll get back to you by email – usually within a day or two.",
+    "direct": "Reach me directly",
+    "email": "Email",
+    "discord": "Discord",
+    "copy": "Copy",
+    "copied": "Copied",
+    "form": {
+      "file": "contact.sh",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "type": "What's it about?",
+      "types": {
+        "plugin": "Minecraft plugin",
+        "bot": "Discord bot",
+        "pixel-art": "Pixel art / GUIs",
+        "hosting": "Website hosting",
+        "other": "Something else"
+      },
+      "message": "Message",
+      "messagePlaceholder": "What should be built, what's the goal, is there a timeline?",
+      "consent": "I agree that my details are sent by email to handle this inquiry. Details in the <link>privacy policy</link>.",
+      "submit": "Send inquiry",
+      "sending": "Sending …",
+      "successTitle": "200 OK – inquiry sent.",
+      "successText": "Thanks! I'll get back to you by email as soon as I can.",
+      "again": "Send another inquiry",
+      "errors": {
+        "name": {
+          "min": "Please enter your name (at least 2 characters).",
+          "max": "The name is too long."
+        },
+        "email": {
+          "invalid": "Please enter a valid email address."
+        },
+        "type": {
+          "invalid": "Please choose what it's about."
+        },
+        "message": {
+          "min": "Please describe your request in a bit more detail (at least 20 characters).",
+          "max": "The message is too long (5000 characters max)."
+        },
+        "consent": {
+          "required": "Please agree to the processing."
+        },
+        "invalid": "Invalid input.",
+        "generic": "That didn't work. Please try again later or email me directly.",
+        "rateLimit": "Too many requests in a short time. Please try again in an hour."
+      }
+    }
+  },
+  "legal": {
+    "imprint": "Imprint",
+    "privacy": "Privacy policy",
+    "imprintDescription": "Legal notice for justgino.de.",
+    "privacyDescription": "Which data this website processes, why and on what legal basis.",
+    "updated": "Last updated",
+    "germanOnly": "This text is only available in German; the German version is binding.",
+    "back": "cd ~"
+  },
+  "footer": {
+    "branch": "main",
+    "problems": "0 problems",
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "made": "built with Next.js & pixels"
+  },
+  "notFound": {
+    "title": "404 – file not found",
+    "text": "There's nothing at this address. Maybe a typo?",
+    "back": "cd ~"
+  }
+}
